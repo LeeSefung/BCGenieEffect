@@ -1,16 +1,16 @@
 # BCGenieEffect
 
-###效果图:
+####效果图:
 
  ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/1.png) ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/2.png) 
  ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/3.png) ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/4.png)
 
-###来源：<https://github.com/Ciechan/BCGenieEffect.git>
-###本文：<https://github.com/LeeSefung/BCGenieEffect.git>
+####来源：<https://github.com/Ciechan/BCGenieEffect.git>
+####本文：<https://github.com/LeeSefung/BCGenieEffect.git>
 
-###代码示例：
+####代码示例：
 
->//
+//
 //  ViewController.m
 //  BCGenieEffect
 //
@@ -20,7 +20,7 @@
 //  https://github.com/LeeSefung/BCGenieEffect.git
 //
 
->import "ViewController.h"
+import "ViewController.h"
 import "UIView+Genie.h"
 
 @interface ViewController () {
@@ -62,7 +62,7 @@ import "UIView+Genie.h"
 
 //动画触发时必须保证动画正常结束，即动画时间小于动画执行时间间隔，如此处按钮取消交互的时间大于动画时间，计时器周期大于动画时间,以避免出现程序错误。
 //离开动画
-- (void)genieOutTransition {
+-- (void)genieOutTransition {
 
     //在使用按钮点击触发时间时要取消按钮的交互，在动画结束后再打开按钮的交互
     //使用计时器时必须保证计时器的循环周期时间大于动画时间
@@ -83,7 +83,7 @@ import "UIView+Genie.h"
 }
 
 //进入动画
-- (void)genieInTransition {
+-- (void)genieInTransition {
    
     //设置结束时视图的位置及大小，startEdge代表移动方向。
     CGRect endRect = CGRectMake(100, 510, 20, 20);
