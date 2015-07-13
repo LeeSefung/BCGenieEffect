@@ -14,6 +14,7 @@
 		24C9B4111B4FC65700A22E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C9B4101B4FC65700A22E8A /* Images.xcassets */; };
 		24C9B4141B4FC65700A22E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C9B4121B4FC65700A22E8A /* LaunchScreen.xib */; };
 		24C9B4201B4FC65700A22E8A /* BCGenieEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C9B41F1B4FC65700A22E8A /* BCGenieEffectTests.m */; };
+		24C9B42B1B4FC6EB00A22E8A /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C9B42A1B4FC6EB00A22E8A /* UIView+Genie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		24C9B4191B4FC65700A22E8A /* BCGenieEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCGenieEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C9B41E1B4FC65700A22E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C9B41F1B4FC65700A22E8A /* BCGenieEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGenieEffectTests.m; sourceTree = "<group>"; };
+		24C9B4291B4FC6EB00A22E8A /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		24C9B42A1B4FC6EB00A22E8A /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		24C9B4021B4FC65700A22E8A /* BCGenieEffect */ = {
 			isa = PBXGroup;
 			children = (
+				24C9B4291B4FC6EB00A22E8A /* UIView+Genie.h */,
+				24C9B42A1B4FC6EB00A22E8A /* UIView+Genie.m */,
 				24C9B4071B4FC65700A22E8A /* AppDelegate.h */,
 				24C9B4081B4FC65700A22E8A /* AppDelegate.m */,
 				24C9B40A1B4FC65700A22E8A /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C9B40C1B4FC65700A22E8A /* ViewController.m in Sources */,
+				24C9B42B1B4FC6EB00A22E8A /* UIView+Genie.m in Sources */,
 				24C9B4091B4FC65700A22E8A /* AppDelegate.m in Sources */,
 				24C9B4061B4FC65700A22E8A /* main.m in Sources */,
 			);
