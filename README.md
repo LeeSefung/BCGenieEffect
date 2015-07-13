@@ -1,9 +1,8 @@
 # BCGenieEffect
 
 ####效果图:
-
- ![image](http://github.com/Ciechan/BCGenieEffect/raw/master/BCGenieEffect/Screens/genieIn.gif)
-
+ ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/1.png) ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/2.png) 
+ ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/3.png) ![image](http://github.com/LeeSefung/BCGenieEffect/raw/master/BCGenieEffect/4.png)
 ####来源：<https://github.com/Ciechan/BCGenieEffect.git>
 ####本文：<https://github.com/LeeSefung/BCGenieEffect.git>
 
