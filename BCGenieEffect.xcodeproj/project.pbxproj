@@ -101,6 +101,10 @@
 				24C9B40D1B4FC65700A22E8A /* Main.storyboard */,
 				24C9B4101B4FC65700A22E8A /* Images.xcassets */,
 				24C9B4121B4FC65700A22E8A /* LaunchScreen.xib */,
+				24D8FB721B53522000014FE3 /* 1.png */,
+				24D8FB741B53522600014FE3 /* 2.png */,
+				24D8FB761B53522E00014FE3 /* 3.png */,
+				24D8FB781B53523600014FE3 /* 4.png */,
 				24C9B4031B4FC65700A22E8A /* Supporting Files */,
 			);
 			path = BCGenieEffect;
@@ -109,10 +113,6 @@
 		24C9B4031B4FC65700A22E8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				24D8FB721B53522000014FE3 /* 1.png */,
-				24D8FB741B53522600014FE3 /* 2.png */,
-				24D8FB761B53522E00014FE3 /* 3.png */,
-				24D8FB781B53523600014FE3 /* 4.png */,
 				24C9B4041B4FC65700A22E8A /* Info.plist */,
 				24C9B4051B4FC65700A22E8A /* main.m */,
 			);
