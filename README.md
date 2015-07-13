@@ -20,11 +20,11 @@
 //  https://github.com/LeeSefung/BCGenieEffect.git
 //
 
-import "ViewController.h"
-import "UIView+Genie.h"
+#####import "ViewController.h"
+#####import "UIView+Genie.h"
 
 @interface ViewController () {
-   
+    
     UIView *_view;
     UIButton *_button;
     NSTimer *_timer;
@@ -35,27 +35,26 @@ import "UIView+Genie.h"
 @implementation ViewController
 
 -- (void)viewDidLoad {
-
     [super viewDidLoad];
-   
+    
     //设置背景色
     self.view.backgroundColor = [UIColor whiteColor];
-   
+    
     //创建VIEW
     _view = [[UIView alloc] initWithFrame:CGRectMake(150, 100, 200, 200)];
     _view.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:_view];
-   
+    
     //创建按钮
     _button = [[UIButton alloc] initWithFrame:CGRectMake(20, 300, 20, 20)];
     _button.backgroundColor = [UIColor redColor];
     [_button addTarget:self action:@selector(genieOutTransition) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_button];
-   
+    
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(100, 510, 20, 20)];
     view2.backgroundColor = [UIColor redColor];
     [self.view addSubview:view2];
-   
+    
     //添加计时器
     _timer = [NSTimer scheduledTimerWithTimeInterval:3.9f target:self selector:@selector(genieOutTransition) userInfo:nil repeats:YES];
 }
@@ -84,7 +83,7 @@ import "UIView+Genie.h"
 
 //进入动画
 -- (void)genieInTransition {
-   
+    
     //设置结束时视图的位置及大小，startEdge代表移动方向。
     CGRect endRect = CGRectMake(100, 510, 20, 20);
     //动画开始会从起始点开始。注意动画过程中视图的中心点始终不变
@@ -92,7 +91,7 @@ import "UIView+Genie.h"
                               destinationRect:endRect
                               destinationEdge:BCRectEdgeTop
                                    completion:^{
-                                      
+                                       
                                        //动画结束打开按钮交互
                                        _button.userInteractionEnabled = YES;
                                        //打印视图中心点
