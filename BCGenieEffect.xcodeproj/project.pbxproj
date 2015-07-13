@@ -15,6 +15,10 @@
 		24C9B4141B4FC65700A22E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C9B4121B4FC65700A22E8A /* LaunchScreen.xib */; };
 		24C9B4201B4FC65700A22E8A /* BCGenieEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C9B41F1B4FC65700A22E8A /* BCGenieEffectTests.m */; };
 		24C9B42B1B4FC6EB00A22E8A /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C9B42A1B4FC6EB00A22E8A /* UIView+Genie.m */; };
+		24D8FB731B53522000014FE3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D8FB721B53522000014FE3 /* 1.png */; };
+		24D8FB751B53522600014FE3 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D8FB741B53522600014FE3 /* 2.png */; };
+		24D8FB771B53522E00014FE3 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D8FB761B53522E00014FE3 /* 3.png */; };
+		24D8FB791B53523600014FE3 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 24D8FB781B53523600014FE3 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		24C9B41F1B4FC65700A22E8A /* BCGenieEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCGenieEffectTests.m; sourceTree = "<group>"; };
 		24C9B4291B4FC6EB00A22E8A /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
 		24C9B42A1B4FC6EB00A22E8A /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		24D8FB721B53522000014FE3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		24D8FB741B53522600014FE3 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		24D8FB761B53522E00014FE3 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		24D8FB781B53523600014FE3 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 		24C9B4031B4FC65700A22E8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				24D8FB721B53522000014FE3 /* 1.png */,
+				24D8FB741B53522600014FE3 /* 2.png */,
+				24D8FB761B53522E00014FE3 /* 3.png */,
+				24D8FB781B53523600014FE3 /* 4.png */,
 				24C9B4041B4FC65700A22E8A /* Info.plist */,
 				24C9B4051B4FC65700A22E8A /* main.m */,
 			);
@@ -204,9 +216,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D8FB771B53522E00014FE3 /* 3.png in Resources */,
+				24D8FB731B53522000014FE3 /* 1.png in Resources */,
+				24D8FB791B53523600014FE3 /* 4.png in Resources */,
 				24C9B40F1B4FC65700A22E8A /* Main.storyboard in Resources */,
 				24C9B4141B4FC65700A22E8A /* LaunchScreen.xib in Resources */,
 				24C9B4111B4FC65700A22E8A /* Images.xcassets in Resources */,
+				24D8FB751B53522600014FE3 /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +438,7 @@
 				24C9B4251B4FC65700A22E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C9B4261B4FC65700A22E8A /* Build configuration list for PBXNativeTarget "BCGenieEffectTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +447,7 @@
 				24C9B4281B4FC65700A22E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
